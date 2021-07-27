@@ -47,7 +47,7 @@ I’m not going to cover sitemaps in-depth because it is a whole topic on its ow
 
 Here are some resources for building and learning more about sitemaps:
 
-- If you are a WordPress user, install the <a href="http://wordpress.org/extend/plugins/google-sitemap-generator/" target="_blank" rel="nofollow noreferrer">Google Sitemap generator plugin</a>.
+- If you are a WordPress user, install the <a href="https://wordpress.org/plugins/google-sitemap-generator/" target="_blank" rel="nofollow noreferrer">Google Sitemap generator plugin</a>.
 <!--- Take Brad Callen’s free SEO email course – Wait for the sign-up form to drop down and then fill out your details.-->
 
 ## Google Looks At Each Web Page
