@@ -31,6 +31,7 @@ redirect_from:
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+      {% endif %}
     {% endfor %}
   </channel>
 </rss>
