@@ -3,7 +3,7 @@ const assets = [
   "/",
   "/index.html",
   "/404.html",
-  "/assets/images/logo.svg"
+  "/assets/images/logo.svg",
   "/assets/images/logo.png",
   "/assets/images/favicon-16x16.png",
   "/assets/images/favicon-32x32.png",
