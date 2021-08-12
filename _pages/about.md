@@ -24,9 +24,9 @@ imageshadow: true
 With what should I get started?    
 Mhh... I think I'll start with my name,    
 Well, my name is **shoaiyb sysa**,     
-I'm 17 years old, Yes 17 years old.     
+I'm 18 years old, Yes 18 years old.     
 I'm the youngest in my family,      
-I mostly like to play football but sometimes I play tv games,       
+I mostly like to play football but sometimes I play tv games as well,       
 I started to blog since when I was 13, At that time I've being so angry by everything I know it's possible but I can't archive it.      
 After being sucked in the blogging world, At 15 I move to YouTube, And finally I found out my self stuck in the web development world.     
 
@@ -38,13 +38,13 @@ And sometimes searching something very important as a developer.
 
 ## What I've Developed?
 
-### sysa.css
-SYSA.CSS is free and open source responsive modern CSS framework written by me.        
+### SysaCSS
+SysaCSS is free and open source responsive modern CSS framework developed by me.        
 Check out it's [github repo](https://github.com/shoaiyb/css) and the [documentation](https://css.sysa.ml/) of course.       
 And hey 👋, It's available on **[NPM](https://npmjs.com/package/sysacss)** 🎉.      
 
 As of now there is only the CSS version, But the SASS version is on it's way.       
-So stick to the [News](https://css.sysa.ml/news/) to be informed when the SASS version is released.       
+So stick to the [News](https://css.sysa.ml/blog/) to be informed when the SASS version is released.       
 
 
 <!--
