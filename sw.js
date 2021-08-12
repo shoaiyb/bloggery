@@ -6,8 +6,8 @@ const assets = [
   "/",
   "/404.html",
   "/index.html",
-  {% for post in site.posts %}"{{ post.url }}",{% endfor %}
-  {% for page in site.pages %}"{{ page.url }}",{% endfor %}
+  /*{% for post in site.posts %}"{{ post.url }}",{% endfor %}
+  {% for page in site.pages %}"{{ page.url }}",{% endfor %}*/
   "/assets/images/logo.svg",
   "/assets/images/logo.png",
   "/assets/images/favicon-16x16.png",
