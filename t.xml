@@ -1,0 +1,12 @@
+<site>
+  {% for post in site.posts %}
+    <post>
+      {{ post.url }}
+    </post>
+  {% endfor %}
+  {% for page in site.pages %}
+    <page>
+      {{ page.url }}
+    </page>
+  {% endfor %}
+</site>
