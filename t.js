@@ -1,6 +1,6 @@
 {% for post in site.posts %}
-{{ post.url }}
+var {{ post.url }}
 {% endfor %}
 {% for page in site.pages %}
-{{ page.permalink }}
+var {{ page.permalink }}
 {% endfor %}
