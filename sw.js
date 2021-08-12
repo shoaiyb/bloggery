@@ -10,7 +10,7 @@ const assets = [
   "{{ post.url }}",
   {% endfor %}
   {% for page in site.pages %}
-  "{{ page.url %}",
+  "{{ page.url }}",
   {% endfor %}
   "/assets/images/logo.svg",
   "/assets/images/logo.png",
