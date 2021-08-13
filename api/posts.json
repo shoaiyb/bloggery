@@ -2,9 +2,16 @@
 layout: null
 ---
 {% for post in site.posts %}
+{% if post.title != null %}
 {
-  "{{ post.title }}": {
-    
-  }
+  {{ post.title | jsonify }}: {
+    "title": {{ post.title | jsonify }},
+    "content": {{ post.content | jsonify }},
+    "date": {{ post.date | jsonify }},
+    "categories": {{ post.categories | jsonify }},
+    "tags": {{ post.tags | jsonify }},
+    "url": {{ post.url | jsonify }},
+    "id": {{ post.id | jsonify }}
 }
+{% endif %}
 {% endfor %}
