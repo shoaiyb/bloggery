@@ -1,9 +1,9 @@
 ---
 layout: null
 ---
-{% for post in site.posts %}
-{% if post.title != null && if forloop.last %}
 {
+{% for post in site.posts %}
+{% if post.title != null && if post != forloop.last %}
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
@@ -13,6 +13,6 @@ layout: null
     "url": {{ post.url | jsonify }},
     "id": {{ post.id | jsonify }}
   }
-}
 {% endif %}
 {% endfor %}
+}
