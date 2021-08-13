@@ -3,7 +3,7 @@ layout: null
 ---
 {
 {% for page in site.pages %}
-{% if page.title != null && page.url !contains "/page/" %}
+{% if page.title != null && page.url != contains "/page/" %}
 {% if forloop.last %}
   {{ page.title | jsonify }}: {
     "title": {{ page.title | jsonify }},
