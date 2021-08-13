@@ -2,14 +2,16 @@
 layout: null
 ---
 {% for page in site.pages %}
+{% if page.title != null %}
 {
-  "{{ page.title }}": {
-    "title": "{{ page.title }}",
-    "content": "{{ page.content }}",
-    "date": "{{ page.date }}",
-    "categories": {{ page.categories }},
-    "tags": {{ page.tags }},
-    "url": "{{ page.url }}",
-    "id": "{{ page.id }}"
+  "{{ page.title | jsonify }}": {
+    "title": "{{ page.title | jsonify }}",
+    "content": "{{ page.content | jsonify }}",
+    "date": "{{ page.date | jsonify }}",
+    "categories": {{ page.categories | jsonify }},
+    "tags": {{ page.tags | jsonify }},
+    "url": "{{ page.url | jsonify }}",
+    "id": "{{ page.id | jsonify }}"
 }
+{% endif %}
 {% endfor %}
