@@ -8,6 +8,7 @@ layout: null
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
+    "image": {{ post.image | jsonify }},
     "date": {{ post.date | jsonify }},
     "categories": {{ post.categories | jsonify }},
     "tags": {{ post.tags | jsonify }},
@@ -18,6 +19,7 @@ layout: null
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
+    "image": {{ post.image | jsonify }},
     "date": {{ post.date | jsonify }},
     "categories": {{ post.categories | jsonify }},
     "tags": {{ post.tags | jsonify }},
