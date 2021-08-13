@@ -2,7 +2,7 @@
 layout: null
 ---
 {% for page in site.pages %}
-{% if page.title != null %}
+{% if page.title != null && page.title != "Home" %}
 {
   {{ page.title | jsonify }}: {
     "title": {{ page.title | jsonify }},
