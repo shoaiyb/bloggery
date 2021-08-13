@@ -14,8 +14,7 @@ layout: null
     "url": {{ post.url | jsonify }},
     "id": {{ post.id | jsonify }}
   },
-{% endif %}
-{% if forloop.last %}
+{% else %}
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
