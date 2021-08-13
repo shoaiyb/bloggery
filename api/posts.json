@@ -4,7 +4,7 @@ layout: null
 {
 {% for post in site.posts %}
 {% if post.title != null %}
-{% if post != forloop.last %}
+{% if != forloop.last %}
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
@@ -15,7 +15,7 @@ layout: null
     "id": {{ post.id | jsonify }}
   },
 {% endif %}
-{% if post == forloop.last %}
+{% if forloop.last %}
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
