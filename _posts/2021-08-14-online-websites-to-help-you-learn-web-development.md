@@ -79,7 +79,7 @@ Their <a href="https://hacks.mozilla.org/" target="_blank" rel="nofollow norefer
 ## More Places to Learn Web Development
 - <a href="https://www.w3schools.com/" target="_blank" rel="nofollow noreferrer">W3 Schools</a>
 - <a href="https://www.freecodecamp.org/" target="_blank" rel="nofollow noreferrer">Free Code Camp</a>
-- [{{ site.name }}]({{ site.baseurl }})
+- [{{ site.name }}](/categories/#Develop)
 - <a href="https://www.coursera.org/" target="_blank" rel="nofollow noreferrer">Coursera</a>
 
 
