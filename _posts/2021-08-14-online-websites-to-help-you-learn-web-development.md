@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 Online Websites To Help You Learn Web Development
-description: ""
+description: "If you are looking to learn web development online, there are more than enough resources out there to teach you everything you need to know, below you will find my picks for the top 5 websites to help you learn web development online."
 author: shoaiyb
 image: assets/images/codewars.webp
 imageshadow: true
