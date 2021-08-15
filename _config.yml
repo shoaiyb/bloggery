@@ -15,7 +15,7 @@ formspree: xknpaeab
 
 # Status Api
 status: alive
-performance: "99"
+performance: 99
 
 # Additional Contents
 #cookie-notice: ""
