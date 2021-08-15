@@ -2,5 +2,6 @@
 layout: null
 ---
 {
-  "status": {{ site.status | jsonify }}
+  "status": {{ site.status | jsonify }},
+  "performance": {{ site.performance | jsonify }}
 }
