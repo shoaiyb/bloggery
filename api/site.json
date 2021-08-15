@@ -1,3 +1,6 @@
+---
+layout: null
+---
 {
   "name": {{ site.name | jsonify }},
   "title": {{ site.title | jsonify }},
