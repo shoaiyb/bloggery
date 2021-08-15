@@ -13,6 +13,10 @@ permalink: /:title/
 email: contact@sysa.ml
 formspree: xknpaeab
 
+# Status Api
+status: alive
+performance: "99"
+
 # Additional Contents
 #cookie-notice: ""
 #announcement: "Welcome the month of Ramadan with a heart filled with peace, harmony and joy. May the divine blessings of Allah protect and guide you."
