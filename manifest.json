@@ -2,10 +2,11 @@
 layout: null
 ---
 {
-  "name": "shoaiyb sysa",
-  "short_name": "shoaiyb sysa",
-  "lang": "en",
-  "start_url": "/",
+  "name": {{ site.title | jsonify }},
+  "short_name": {{ site.name | jsonify }},
+  "lang": {{ site.lang | jsonify }},
+  "start_url": {{ site.baseurl | jsonify }},
+  "scope": {{ site.baseurl | jsonify }},
   "icons": [
     {
       "src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"
@@ -20,9 +21,8 @@ layout: null
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "url": "https://sysa.ml",
-  "description": "Get free blogging ideas, tips & tricks, And learn how to develop some simple scripts as a beginner.",
-  "manifestUrl": "https://sysa.ml/manifest.json",
+  "description": {{ site.description | jsonify }},
+  "categories": ["SysaCSS","WordPress","Blogging","Guide","Develop","Beginner","CSS","Jekyll"],
   "shortcuts": [
     {
       "name": "Tools",
