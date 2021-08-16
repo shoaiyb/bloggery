@@ -5,8 +5,8 @@ layout: null
   "name": {{ site.title | jsonify }},
   "short_name": {{ site.name | jsonify }},
   "lang": {{ site.lang | jsonify }},
-  "start_url": {{ site.baseurl | jsonify }},
-  "scope": {{ site.baseurl | jsonify }},
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"
