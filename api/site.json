@@ -6,6 +6,8 @@ permalink: /api/site/
   "name": {{ site.name | jsonify }},
   "title": {{ site.title | jsonify }},
   "description": {{ site.description | jsonify }},
+  "performance": {{ site.performance | jsonify }},
+  "status": {{ site.status | jsonify }},
   "email": {{ site.email | jsonify }},
   "logo": {{ site.logo | jsonify }},
   "url": {{ site.url | jsonify }}
