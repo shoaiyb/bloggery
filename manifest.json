@@ -5,7 +5,7 @@ layout: null
   "name": {{ site.title | jsonify }},
   "short_name": {{ site.name | jsonify }},
   "lang": {{ site.lang | jsonify }},
-  "start_url": "/",
+  "start_url": "https://sysa.ml",
   "scope": "/",
   "icons": [
     {
