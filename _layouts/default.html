@@ -5,18 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% seo %}
 {% feed_meta %}
+{% if page.url == "/" %}
 <meta property="og:image" content="https://sysa.ml/assets/images/sysa.png">
 <meta property="twitter:image" content="https://sysa.ml/assets/images/sysa.png">
+{% endif %}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="application-name" content="shoaiyb sysa">
+{% for amp in site.amp %}
+{% if amp.path == "{{ page.url}}.md" %}
 <link rel="amphtml" href="{{ site.baseurl }}/amp{{ page.url }}">
+{% endif %}
+{% endfor %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="3500×3500" href="{{ site.baseurl }}/assets/images/logo.png">
 <link rel="icon" type="image/svg+xml" sizes="any" href="{{ site.baseurl }}/assets/images/logo.svg">
 <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+{% if site.adsense == "enabled" %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8196030328784800" crossorigin="anonymous"></script>
+{% endif %}
 <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
