@@ -6,7 +6,7 @@ layout: null
   "short_name": {{ site.name | jsonify }},
   "lang": {{ site.lang | jsonify }},
   "start_url": "https://sysa.ml",
-  "scope": "/",
+  "scope": "https://sysa.ml/",
   "icons": [
     {
       "src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"
