@@ -1,6 +1,7 @@
 ---
 layout: null
 permalink: /api/site/
+published: false
 ---
 {
   "name": {{ site.name | jsonify }},
