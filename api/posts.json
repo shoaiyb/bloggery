@@ -5,7 +5,6 @@ permalink: /api/posts/
 {
 {% for post in site.posts %}
 {% if post.title != null %}
-{% if forloop.last %}
   {{ post.title | jsonify }}: {
     "title": {{ post.title | jsonify }},
     "content": {{ post.content | jsonify }},
@@ -16,20 +15,7 @@ permalink: /api/posts/
     "tags": {{ post.tags | jsonify }},
     "url": {{ post.url | jsonify }},
     "id": {{ post.id | jsonify }}
-  }
-{% else %}
-  {{ post.title | jsonify }}: {
-    "title": {{ post.title | jsonify }},
-    "content": {{ post.content | jsonify }},
-    "image": {{ post.image | jsonify }},
-    "date": {{ post.date | jsonify }},
-    "author": {{ post.author | jsonify }},
-    "categories": {{ post.categories | jsonify }},
-    "tags": {{ post.tags | jsonify }},
-    "url": {{ post.url | jsonify }},
-    "id": {{ post.id | jsonify }}
-  },
-{% endif %}
+  }{% if forloop.last %}{% else %},{% endif %}
 {% endif %}
 {% endfor %}
 }
