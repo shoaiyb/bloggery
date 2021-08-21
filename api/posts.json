@@ -1,6 +1,7 @@
 ---
 layout: null
 permalink: /api/posts/
+published: false
 ---
 {
 {% for post in site.posts %}
