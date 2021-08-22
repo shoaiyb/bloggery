@@ -6,6 +6,7 @@ author: shoaiyb
 image: assets/images/best-wordpress-hosting.webp
 imageshadow: true
 categories: [ WordPress, Beginner, Hosting ]
+aff: bh
 toc: true
 ---
 
