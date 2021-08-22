@@ -1,3 +1,9 @@
 <div class="adsbygoogle">
-  {{ page.aff }}
+  {% if page.aff == "bh" %}
+  {{ site.bh }}
+  {% else %}
+  {% if page.aff == "et" %}
+  {{ site.et }}
+  {% endif %}
+  {% endif %}
 </div>
