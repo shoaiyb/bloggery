@@ -6,7 +6,7 @@ author: shoaiyb
 image: assets/images/codewars.webp
 imageshadow: true
 categories: [ Beginner, Develop ]
-aff: {{ site.et }}
+aff: et
 toc: true
 ---
 
