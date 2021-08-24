@@ -2,6 +2,7 @@
 layout: post
 title: "Best Free Responsive WordPress Blog Themes"
 description: "Are you looking for a free WordPress blog theme for your website in this article, I've hand-picked some of the best free and responsive WordPress blog themes that you can use on your site."
+author: shoaiyb
 image: assets/images/free-wordpress-themes.webp
 imageshadow: true
 category: [ WordPress, Blogging, Guide ]
@@ -101,7 +102,7 @@ You could even use it to create an online resume.
 
 
 I hope this list helped you find the best free WordPress blog themes for your website.         
-I also recommend taking a look at my pick of the [best free and premium WordPress plugins](/best-free-and-premium-wordpress-plugin/) for your site.        
+I also recommend taking a look at my pick of the [Best 5 Most Used Premium WordPress Plugins](/premium-wordpress-plugins/) for your site.        
 
-If you liked this article, then please subscribe to my News Letter for WordPress beginner's tutorials.        
+If you liked this article, then please subscribe to my [News Letter](/#newsletter) for [WordPress](/build-a-wordpress-community-website-with-buddypress/) [beginner's tutorials](/categories/#WordPress).        
 <!--You can also find me on Twitter and Facebook.-->
