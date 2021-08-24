@@ -17,7 +17,7 @@ However as it grows, hackers have taken note and are beginning to specifically t
 No matter what types of content your site provides, you are not an exception.        
 If you don’t take certain precautions you could get hacked.        
 Like everything technology related, you need to check your website security.       
-In this tutorial, I will share my [Best Tips](/category/#WordPress) to keep your WordPress website secure.        
+In this tutorial, I will share my [Best Tips](/categories/#WordPress) to keep your WordPress website secure.        
 
 ## Choose a Good Hosting Company
 The simplest way to keep your site secure is to go with a hosting provider who provides multiple layers of security.       
@@ -33,7 +33,7 @@ To put icing on the cake their price is also reasonable.
 ![img1](https://miro.medium.com/max/1050/0*CTudkdUR8JgHFEv7.jpg)         
 
 ## Don’t Use Nulled Themes
-[WordPress premium themes](/wordpress-premium-themes/) look more professional and have more customizable options than a free theme.       
+[WordPress Premium Themes](/wordpress-premium-themes/) look more professional and have more customizable options than a free theme.       
 But one could argue you get what you pay for.        
 Premium themes are coded by highly skilled developers and are tested to pass multiple WordPress checks right out of the box.        
 There are no restrictions on customizing your theme, and you will get full support if something does go wrong on your site.        
@@ -152,4 +152,4 @@ WordPress security is one of the crucial parts of a website.
 If you don’t maintain your WordPress security, hackers can easily attack your site.         
 Maintaining your website security isn’t hard and can be done without spending a penny.        
 Some of these solutions are for advanced users but if you have any questions {{site.name}} is right around the digital corner.        
-[Message me](/contact/) or [tweet me](https://twitter.com/shoaiybsysa/).        
+[Message me](/contact/) or tweet me [@ShoaiybSysa](https://twitter.com/shoaiybsysa/).        
