@@ -12,7 +12,7 @@ toc: true
 
 
 
-It is easy to decide that you want to [make a blog](/start-wordpress-blog/).       
+It is easy to decide that you want to [make a blog](/how-to-start-blog/).       
 You probably already have some ideas about what to write and how everything should look like.      
 Maybe you know a thing or two about blogging, marketing, and website building, but if you haven’t worked on your own site, the chances are that you still don’t know which platform to go for.
 
