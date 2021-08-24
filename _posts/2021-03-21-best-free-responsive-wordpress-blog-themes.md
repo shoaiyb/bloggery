@@ -20,10 +20,10 @@ Your free theme needs to be reliable and easily customizable.
 In this article, I've hand-picked some of the best free and responsive WordPress blog themes that you can use on your site.       
 
 ## Getting Started with WordPress
-First, you need to make sure that you are using the [best blogging platform](/best-blogging-platform/).        
+First, you need to make sure that you are using the [best blogging platform](/best-blogging-platforms/).        
 Self-hosted WordPress.org is the perfect platform to start your blog because it gives you lots of freedom, flexibility, and control. I have a useful guide on the [difference between WordPress.org and WordPress.com](/difference-between-wordpress.com-and-wordpress.org/).     
 
-WordPress.org is open source. It comes with support for thousands of free templates (called themes) and extensions (called plugins) that help you grow your blog faster.         
+WordPress.org is open source. It comes with support for thousands of free templates (called [themes](/wordpress-premium-themes/)) and extensions (called [plugins](/premium-wordpress-plugins/)) that help you grow your blog faster.         
 Take a look at my article on [why you should use WordPress](/why-wordpress/) to learn more.         
 
 You can use my step by step beginner’s guide on [how to start a WordPress blog](/start-wordpress/) for full instructions on getting started.        
